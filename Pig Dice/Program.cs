@@ -1,6 +1,6 @@
 ﻿var random = new Random();
 
-for(int j = 0; j < 1000000000; j++)
+for(int j = 0; j < 100000000; j++)
 {
 
 
@@ -19,7 +19,7 @@ while (i == true)
         i = false;
        // Console.WriteLine("GAME OVER");
 
-            if(score > 450)
+            if(score > 350)
             {
                 Console.WriteLine("THIS ONE RIGHT HERE");
                 Console.WriteLine($"score: {score}");
